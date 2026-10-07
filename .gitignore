@@ -1,0 +1,37 @@
+# Public source roots only. This is a packaging aid, not a security boundary.
+/*
+!/.gitignore
+!/README.md
+!/NOTICE.md
+!/LICENSE
+!/THIRD-PARTY.md
+!/licenses/
+!/tools/
+!/examples/
+!/dependency-lock.json
+!/model-manifest.json
+!/prepared-model-manifest.json
+!/docs/
+!/scripts/
+!/tests/
+
+# Never publish installed artifacts, synthetic execution output or credentials.
+runtime/
+runtime-v2/
+models/
+artifacts/
+private/
+build/
+laya-validation/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+*.log
+*.result.json
+*.dmp
+*.pem
+*.key
+*.pfx
+*.p12

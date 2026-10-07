@@ -1,0 +1,10 @@
+{
+  "requests": 1000,
+  "rule_resolved": 250,
+  "cache_hit_rate_after_rules": 0.4,
+  "laya_resolved_rate_after_cache": 0.8,
+  "baseline_input_tokens": 1200,
+  "baseline_output_tokens": 120,
+  "candidate_input_tokens": 350,
+  "candidate_output_tokens": 80
+}
